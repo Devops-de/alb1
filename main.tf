@@ -18,4 +18,5 @@ module "alb" {
   vpc_id             = module.vpc.vpc_id
   public_subnets     = module.networking.public_subnets
   alb_sg_id          = module.networking.alb_sg_id
+  acm_cert    = var.acm_cert_arn
 }

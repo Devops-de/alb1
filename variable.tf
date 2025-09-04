@@ -12,3 +12,7 @@ variable "azs" {
   
 }
 
+variable "acm_cert_arn" {
+    default = "arn:aws:acm:us-demo"
+}
+
